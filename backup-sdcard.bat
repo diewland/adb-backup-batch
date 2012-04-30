@@ -25,10 +25,10 @@ adb pull /sdcard/Pictures/ %datetimef%/Pictures/
 adb pull /sdcard/SketchBookMobile/ %datetimef%/SketchBookMobile/
 adb pull /sdcard/TitaniumBackup/ %datetimef%/TitaniumBackup/
 adb pull /sdcard/bluetooth/ %datetimef%/bluetooth/
-adb pull /sdcard/data/com.keramidas.TitaniumBackup/ %datetimef%/data/com.keramidas.TitaniumBackup/
 adb pull /sdcard/data/diewland/ %datetimef%/data/diewland/
 adb pull /sdcard/doc/ %datetimef%/doc/
 adb pull /sdcard/mindmaps/ %datetimef%/mindmaps/
+adb pull /sdcard/rom/ %datetimef%/rom/
 REM ===== BACKUP END
 
 ECHO ====================================

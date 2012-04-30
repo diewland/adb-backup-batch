@@ -6,10 +6,10 @@ REM ===== RESTORE START --- custom by yourself!
 adb push %1%/Download /sdcard/Download/
 adb push %1%/SketchBookMobile /sdcard/SketchBookMobile/
 adb push %1%/TitaniumBackup /sdcard/TitaniumBackup/
-adb push %1%/data/com.keramidas.TitaniumBackup /sdcard/data/com.keramidas.TitaniumBackup/
 adb push %1%/data/diewland /sdcard/data/diewland/
 adb push %1%/doc /sdcard/doc/
 adb push %1%/mindmaps /sdcard/mindmaps/
+adb push %1%/rom /sdcard/rom/
 REM ===== RESTORE END
 
 ECHO ====================================
