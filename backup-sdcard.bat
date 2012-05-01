@@ -19,6 +19,7 @@ REM ===== MAKE BACKUP DIRECTORY
 mkdir %datetimef%
 
 REM ===== BACKUP START --- custom by yourself!
+adb pull /sdcard/Android/obb/com.rayark.Cytus.full/ %datetimef%/Android/obb/com.rayark.Cytus.full/
 adb pull /sdcard/DCIM/ %datetimef%/DCIM/
 adb pull /sdcard/Download/ %datetimef%/Download/
 adb pull /sdcard/Pictures/ %datetimef%/Pictures/
