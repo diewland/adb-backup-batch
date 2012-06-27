@@ -26,6 +26,7 @@ adb pull /sdcard/Pictures/ %datetimef%/Pictures/
 adb pull /sdcard/SketchBookMobile/ %datetimef%/SketchBookMobile/
 adb pull /sdcard/TitaniumBackup/ %datetimef%/TitaniumBackup/
 adb pull /sdcard/bluetooth/ %datetimef%/bluetooth/
+adb pull /sdcard/data/com.teslacoilsw.launcher/backup/ %datetimef%/data/com.teslacoilsw.launcher/backup/
 adb pull /sdcard/data/diewland/ %datetimef%/data/diewland/
 adb pull /sdcard/doc/ %datetimef%/doc/
 adb pull /sdcard/mindmaps/ %datetimef%/mindmaps/

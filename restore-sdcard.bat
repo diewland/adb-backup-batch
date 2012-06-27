@@ -7,6 +7,7 @@ adb push %1%/Android/obb/com.rayark.Cytus.full /sdcard/Android/obb/com.rayark.Cy
 adb push %1%/Download /sdcard/Download/
 adb push %1%/SketchBookMobile /sdcard/SketchBookMobile/
 adb push %1%/TitaniumBackup /sdcard/TitaniumBackup/
+adb push %1%/data/com.teslacoilsw.launcher/backup /sdcard/data/com.teslacoilsw.launcher/backup/
 adb push %1%/data/diewland /sdcard/data/diewland/
 adb push %1%/doc /sdcard/doc/
 adb push %1%/mindmaps /sdcard/mindmaps/
