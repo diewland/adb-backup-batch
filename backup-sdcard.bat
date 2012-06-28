@@ -30,7 +30,7 @@ adb pull /sdcard/data/com.teslacoilsw.launcher/backup/ %datetimef%/data/com.tesl
 adb pull /sdcard/data/diewland/ %datetimef%/data/diewland/
 adb pull /sdcard/doc/ %datetimef%/doc/
 adb pull /sdcard/mindmaps/ %datetimef%/mindmaps/
-adb pull /sdcard/rom/ %datetimef%/rom/
+REM adb pull /sdcard/rom/ %datetimef%/rom/
 REM ===== BACKUP END
 
 ECHO ====================================

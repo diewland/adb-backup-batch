@@ -11,7 +11,7 @@ adb push %1%/data/com.teslacoilsw.launcher/backup /sdcard/data/com.teslacoilsw.l
 adb push %1%/data/diewland /sdcard/data/diewland/
 adb push %1%/doc /sdcard/doc/
 adb push %1%/mindmaps /sdcard/mindmaps/
-adb push %1%/rom /sdcard/rom/
+REM adb push %1%/rom /sdcard/rom/
 REM ===== RESTORE END
 
 ECHO ====================================
