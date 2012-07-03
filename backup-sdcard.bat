@@ -19,18 +19,18 @@ REM ===== MAKE BACKUP DIRECTORY
 mkdir %datetimef%
 
 REM ===== BACKUP START --- custom by yourself!
-adb pull /sdcard/Android/obb/com.rayark.Cytus.full/ %datetimef%/Android/obb/com.rayark.Cytus.full/
+adb pull /sdcard/Android/obb/ %datetimef%/Android/obb/
 adb pull /sdcard/DCIM/ %datetimef%/DCIM/
 adb pull /sdcard/Download/ %datetimef%/Download/
 adb pull /sdcard/Pictures/ %datetimef%/Pictures/
 adb pull /sdcard/SketchBookMobile/ %datetimef%/SketchBookMobile/
 adb pull /sdcard/TitaniumBackup/ %datetimef%/TitaniumBackup/
 adb pull /sdcard/bluetooth/ %datetimef%/bluetooth/
-adb pull /sdcard/data/com.teslacoilsw.launcher/backup/ %datetimef%/data/com.teslacoilsw.launcher/backup/
 adb pull /sdcard/data/diewland/ %datetimef%/data/diewland/
 adb pull /sdcard/doc/ %datetimef%/doc/
 adb pull /sdcard/mindmaps/ %datetimef%/mindmaps/
 REM adb pull /sdcard/rom/ %datetimef%/rom/
+REM adb pull /sdcard/data/com.teslacoilsw.launcher/backup/ %datetimef%/data/com.teslacoilsw.launcher/backup/
 REM ===== BACKUP END
 
 ECHO ====================================
