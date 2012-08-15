@@ -20,29 +20,16 @@ mkdir %datetimef%
 
 REM ===== BACKUP START --- custom by yourself!
 adb pull /sdcard/Android/obb/ %datetimef%/Android/obb/
-<<<<<<< HEAD
-=======
-adb pull /sdcard/DCIM/ %datetimef%/DCIM/
-adb pull /sdcard/Download/ %datetimef%/Download/
-adb pull /sdcard/Pictures/ %datetimef%/Pictures/
-adb pull /sdcard/SketchBookMobile/ %datetimef%/SketchBookMobile/
-adb pull /sdcard/TitaniumBackup/ %datetimef%/TitaniumBackup/
->>>>>>> 6f888fa4ae7b65538984de889ccb67af7e0ab7c5
 adb pull /sdcard/bluetooth/ %datetimef%/bluetooth/
 adb pull /sdcard/data/diewland/ %datetimef%/data/diewland/
 adb pull /sdcard/DCIM/ %datetimef%/DCIM/
 adb pull /sdcard/doc/ %datetimef%/doc/
 adb pull /sdcard/Download/ %datetimef%/Download/
 adb pull /sdcard/mindmaps/ %datetimef%/mindmaps/
-<<<<<<< HEAD
 adb pull /sdcard/Pictures/ %datetimef%/Pictures/
 adb pull /sdcard/rom/ %datetimef%/rom/
 adb pull /sdcard/SketchBookMobile/ %datetimef%/SketchBookMobile/
 adb pull /sdcard/TitaniumBackup/ %datetimef%/TitaniumBackup/
-=======
-REM adb pull /sdcard/rom/ %datetimef%/rom/
-REM adb pull /sdcard/data/com.teslacoilsw.launcher/backup/ %datetimef%/data/com.teslacoilsw.launcher/backup/
->>>>>>> 6f888fa4ae7b65538984de889ccb67af7e0ab7c5
 REM ===== BACKUP END
 
 ECHO ====================================
