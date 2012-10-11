@@ -25,7 +25,8 @@ adb pull /sdcard/data/diewland/ %datetimef%/data/diewland/
 adb pull /sdcard/DCIM/ %datetimef%/DCIM/
 adb pull /sdcard/doc/ %datetimef%/doc/
 adb pull /sdcard/Download/ %datetimef%/Download/
-adb pull /sdcard/mindmaps/ %datetimef%/mindmaps/
+adb pull /sdcard/Movies/ %datetimef%/Movies/
+adb pull /sdcard/Music/ %datetimef%/Music/
 adb pull /sdcard/Pictures/ %datetimef%/Pictures/
 adb pull /sdcard/rom/ %datetimef%/rom/
 adb pull /sdcard/SketchBookMobile/ %datetimef%/SketchBookMobile/
